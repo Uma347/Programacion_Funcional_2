@@ -1,9 +1,5 @@
 open System
 
-let suma a b = a + b
-let resta a b = a - b
-let multiplicacion a b = a * b
-let division a b = System.Math.Round(float(a/b),5);
 let rec fibR n =
     if n=0 then 0
     elif n=1 then 1
