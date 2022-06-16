@@ -3,7 +3,7 @@ def desp(funcion, x=0):
 
 def f_ordensuperior(t):
     if t=="r":
-        print("Sucesión Fibonacci con funcion recursiva")
+        print("Sucesión Fibonacci con funcion recursiva (orden superior)")
         def fiborecursivo(x=0):
             if x==0: 
                 return 0
@@ -18,7 +18,7 @@ def f_ordensuperior(t):
         
         return sucesionfiboR
     if t=="e":
-        print("Sucesión Fibonacci con funcion estructurada")
+        print("Sucesión Fibonacci con funcion estructurada (orden superior)")
         def sucesionfiboE(x=0):
             a,b,c=0,1,1
             s=""
